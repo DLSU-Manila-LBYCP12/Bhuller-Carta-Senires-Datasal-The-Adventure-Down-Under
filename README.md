@@ -1,3 +1,3 @@
-# Bhuller-Carta-Senires-Datasal: The Adventure Down Under-
+# Bhuller-Carta-Senires-Datasal
 Datasal Project
-Contains the project
+
