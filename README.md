@@ -53,7 +53,7 @@ This is a test of the user's knowledge in data structures and algorithms. This i
 
 Math Quiz
 A quiz on math and how a person can perform average difficulty questions. We applied a Stack here since some of the equations needed are computed using an infix to postfix calculator. thus the use of stacks is required.
-![math game](https://user-images.githubusercontent.com/30287750/29486784-a4fe1e3c-8520-11e7-8bc7-b028842971ad.jpg)
+![20960979_1941438249477307_1946679623_o](https://user-images.githubusercontent.com/30287750/29487361-30491eac-852a-11e7-8420-057305fd3b96.png)
 ![20961074_1941429596144839_228673717_o](https://user-images.githubusercontent.com/30287750/29487193-122b491a-8528-11e7-9b89-adb0b09fd1d4.png)
 ![20960841_1941431642811301_1615580143_o](https://user-images.githubusercontent.com/30287750/29487194-15023842-8528-11e7-88c6-cda191fb393d.png)
 
