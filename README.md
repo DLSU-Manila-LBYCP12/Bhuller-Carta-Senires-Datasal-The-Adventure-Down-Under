@@ -3,7 +3,7 @@ Datasal Project
 Contains the project
 
 Game Center is a social network where People can play a number of mini games and compete with the highscore of each other.
-The program saves and reads the player profiles to a text file.
+The program saves and reads the player profiles to a text file. This program efficiently implemented the array list, the linked list, the queue, and the Graph. Screenshots will be found below.
 
 The first interface is the Game Center Logo.
 
@@ -42,6 +42,12 @@ in this case the array list stores the body class when it is added every time th
 ![snakegame](https://user-images.githubusercontent.com/30287750/29486778-a4c0d888-8520-11e7-8aea-aeae9b8e9f7c.jpg)
 ![snake array list](https://user-images.githubusercontent.com/30287750/29486777-a482cf02-8520-11e7-9635-bfe3b659a457.jpg)
 
+Datasal Quiz
+This is a test of the user's knowledge in data structures and algorithms. This is also where we implemented the linked list to store the questions so that getting them will be efficient.
+
+![quiz game](https://user-images.githubusercontent.com/30287750/29486774-a4819bb4-8520-11e7-8614-2a9cdeee3920.jpg)
+![20952019_1941423536145445_490698777_o](https://user-images.githubusercontent.com/30287750/29487036-9fbc4296-8525-11e7-8fb7-2657e4420f77.png)
+
 
 Math Quiz
 A quiz on math and how a person can perform average difficulty questions.
@@ -55,10 +61,6 @@ The classic game pong made from the breakout game as made in the class
 
 Breakout
 ![breakoutgame](https://user-images.githubusercontent.com/30287750/29486780-a4c2f348-8520-11e7-952c-6f5ca1f8676a.jpg)
-
-Datasal Quiz
-This is a test of the user's knowledge in data structures and algorithms.
-![quiz game](https://user-images.githubusercontent.com/30287750/29486774-a4819bb4-8520-11e7-8614-2a9cdeee3920.jpg)
 
 and A find image game.
 
