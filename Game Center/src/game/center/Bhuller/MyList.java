@@ -29,9 +29,23 @@ public class MyList<E> implements List<E>{
            items = (E[])new Object[MAX_LIST]; 
            NumItems = 0;
      }
-
+     public boolean contains(Object o) {
+        return indexOf(o) >= 0;
+    }
+     public int indexOf(Object o) {
+        if (o == null) {
+            for (int i = 0; i < NumItems; i++)
+                if (items[i]==null)
+                    return i;
+        } else {
+            for (int i = 0; i < NumItems; i++)
+                if (o.equals(items[i]))
+                    return i;
+        }
+        return -1;
+    }
      public void add(int index, E item) throws ListIndexOutOfBoundsException, ListFullException{
-          if ( index > 0 && index <= NumItems + 1){
+          if ( index > 0 && index < NumItems + 1){
                if (NumItems == MAX_LIST){
                     throw new ListFullException("ERROR: List Already Full"); 
                }  

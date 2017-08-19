@@ -1,0 +1,46 @@
+Paulo
+10
+0
+0
+0
+0
+Jashan 1
+Johann 1
+Jack 1
+John 1
+end profile
+Johann
+0
+0
+0
+0
+20
+Paulo 1
+Jashan 1
+Jack 1
+end profile
+Jashan
+0
+0
+0
+0
+0
+Johann 1
+end profile
+Jack
+0
+0
+0
+0
+0
+Johann 1
+Paulo 1
+end profile
+John
+0
+0
+0
+0
+0
+Paulo 1
+end profile
