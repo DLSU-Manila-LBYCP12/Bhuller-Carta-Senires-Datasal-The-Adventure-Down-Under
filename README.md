@@ -6,6 +6,7 @@ Game Center is a social network where People can play a number of mini games and
 The program saves and reads the player profiles to a text file.
 
 The first interface is the Game Center Logo.
+
 ![first](https://user-images.githubusercontent.com/30287750/29486782-a4c3a996-8520-11e7-8ed0-fd2d5b0460d9.png)
 
 Once clicked, it will go to the log in page.
