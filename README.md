@@ -22,7 +22,7 @@ Also in the main menu is a button labeled NETWORK which when clicked, displays t
 ![adjacency list run](https://user-images.githubusercontent.com/30287750/29486783-a4c42c4a-8520-11e7-91bc-f864b31229c0.png)
 ![adjacency class](https://user-images.githubusercontent.com/30287750/29486779-a4c13346-8520-11e7-8d68-77bf419033b6.jpg)
 
-Also in the Main menu is a list of the recently played Games which update every time a game is opened. A stack implementation was used here to limit the displayed games to only 4 so that the screen will not be crowded with the names of the games.
+Also in the Main menu is a list of the recently played Games which update every time a game is opened. A queue implementation was used here to limit the displayed games to only 4 so that the screen will not be crowded with the names of the games.
 ![queue for recently played game limited to display 4](https://user-images.githubusercontent.com/30287750/29486775-a4820374-8520-11e7-97f4-dcd590d45d30.jpg)
 
 
