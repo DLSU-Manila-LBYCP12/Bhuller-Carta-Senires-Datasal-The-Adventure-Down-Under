@@ -1,12 +1,11 @@
-# Bhuller-Carta-Senires-Datasal: The Adventure Down Under-
+# Bhuller-Carta-Senires
 Datasal Project
 Contains the project
 
 Game Center is a social network where People can play a number of mini games and compete with the highscore of each other.
-The program saves and reads the player profiles to a text file. This program efficiently implemented the array list, the linked list, the queue, and the Graph. Screenshots will be found below.
+The program saves and reads the player profiles to a text file. This program efficiently implemented the array list for storing values that require a lot of manipulation and getting elements in the middle of the list, the linked list to store elements which the front is the only thing called in the program, the queue in storing a limited number of data and adjusting when needed, the Stack in changing infix equations to postfix, and the Graph in connecting profiles.. Screenshots will be found below.
 
 The first interface is the Game Center Logo.
-
 ![first](https://user-images.githubusercontent.com/30287750/29486782-a4c3a996-8520-11e7-8ed0-fd2d5b0460d9.png)
 
 Once clicked, it will go to the log in page.
@@ -46,12 +45,19 @@ Datasal Quiz
 This is a test of the user's knowledge in data structures and algorithms. This is also where we implemented the linked list to store the questions so that getting them will be efficient.
 
 ![quiz game](https://user-images.githubusercontent.com/30287750/29486774-a4819bb4-8520-11e7-8614-2a9cdeee3920.jpg)
+
+![20993293_1941429956144803_69192698_o](https://user-images.githubusercontent.com/30287750/29487180-bb6daf1e-8527-11e7-9af2-d07ed2f5701c.png)
+
 ![20952019_1941423536145445_490698777_o](https://user-images.githubusercontent.com/30287750/29487036-9fbc4296-8525-11e7-8fb7-2657e4420f77.png)
 
 
 Math Quiz
-A quiz on math and how a person can perform average difficulty questions.
+A quiz on math and how a person can perform average difficulty questions. We applied a Stack here since some of the equations needed are computed using an infix to postfix calculator. thus the use of stacks is required.
 ![math game](https://user-images.githubusercontent.com/30287750/29486784-a4fe1e3c-8520-11e7-8bc7-b028842971ad.jpg)
+![20961074_1941429596144839_228673717_o](https://user-images.githubusercontent.com/30287750/29487193-122b491a-8528-11e7-9b89-adb0b09fd1d4.png)
+![20960841_1941431642811301_1615580143_o](https://user-images.githubusercontent.com/30287750/29487194-15023842-8528-11e7-88c6-cda191fb393d.png)
+
+![20993293_1941429956144803_69192698_o](https://user-images.githubusercontent.com/30287750/29487203-36146870-8528-11e7-9c6d-20d9d845b90b.png)
 
 
 Pong
