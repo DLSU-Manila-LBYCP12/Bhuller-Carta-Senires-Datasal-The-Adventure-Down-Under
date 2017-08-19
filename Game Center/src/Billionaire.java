@@ -35,6 +35,10 @@ public class Billionaire extends GraphicsProgram implements BillionaireConstants
     
     Stack<String> stacka = new Stack<>();
     
+    MyLinkedList<String> questionlist = new MyLinkedList<>();
+    
+    MyLinkedList<String> choiceslist = new MyLinkedList<>();
+    
     JButton A;
     
     public int qcounter = 1;
@@ -165,26 +169,26 @@ public class Billionaire extends GraphicsProgram implements BillionaireConstants
     
     public void initinit()
     {
-        stackq.push("What is the time complexity of indexing operations in a binary search tree.");
-        stackq.push("What is the time complexity of dequeue operation in a queue.");
-        stackq.push("What is the time complexity of enqueue operation in a queue.");
-        stackq.push("What is the time complexity of indexing operations in a dynamic array.");
-        stackq.push("What is the time complexity of indexing operations in a linear array.");
-        stackq.push("push(1), push(2), pop(), push(1), push(2), pop(), pop(). what is the value returned by peek().");
-        stackq.push("Which of the following stack operations could result to stack underflow.");
-        stackq.push("Which of the following stack operations could result to stack overflow.");
-        stackq.push("Which of the following stack operations could result to queue underflow.");
-        stackq.push("Which of the following stack operations could result to queue overflow.");
-        stacka.push("A. O(logn) B. O(n^2) C. O(1) D. O(nlogn) ");
-        stacka.push("A. O(1) B. O(n^2) C. O(n) D. O(nlogn) ");
-        stacka.push("A. O(1) B. O(n^2) C. O(n) D. O(nlogn) ");
-        stacka.push("A. O(1) B. O(n^2) C. O(n) D. O(nlogn) ");
-        stacka.push("A. O(1) B. O(n^2) C. O(n) D. O(nlogn) ");
-        stacka.push("A. 1 B. 2 C. null D. 0");
-        stacka.push("A. pop B. initStack C. push D. isEmpty");
-        stacka.push("A. push B. initStack C. pop D. isEmpty");
-        stacka.push("A. dequeue B. Front C. enqueue D. isEmpty");
-        stacka.push("A. enqueue B. Rear C. dequeue D. Front");
+        questionlist.add(1, "What is the time complexity of indexing operations in a binary search tree.");
+        questionlist.add(1,"What is the time complexity of dequeue operation in a queue.");
+        questionlist.add(1,"What is the time complexity of enqueue operation in a queue.");
+        questionlist.add(1,"What is the time complexity of indexing operations in a dynamic array.");
+        questionlist.add(1,"What is the time complexity of indexing operations in a linear array.");
+        questionlist.add(1,"push(1), push(2), pop(), push(1), push(2), pop(), pop(). what is the value returned by peek().");
+        questionlist.add(1,"Which of the following stack operations could result to stack underflow.");
+        questionlist.add(1,"Which of the following stack operations could result to stack overflow.");
+        questionlist.add(1,"Which of the following stack operations could result to queue underflow.");
+        questionlist.add(1,"Which of the following stack operations could result to queue overflow.");
+        choiceslist.add(1, "A. O(logn) B. O(n^2) C. O(1) D. O(nlogn) ");
+        choiceslist.add(1,"A. O(1) B. O(n^2) C. O(n) D. O(nlogn) ");
+        choiceslist.add(1,"A. O(1) B. O(n^2) C. O(n) D. O(nlogn) ");
+        choiceslist.add(1,"A. O(1) B. O(n^2) C. O(n) D. O(nlogn) ");
+        choiceslist.add(1,"A. O(1) B. O(n^2) C. O(n) D. O(nlogn) ");
+        choiceslist.add(1,"A. 1 B. 2 C. null D. 0");
+        choiceslist.add(1,"A. pop B. initStack C. push D. isEmpty");
+        choiceslist.add(1,"A. push B. initStack C. pop D. isEmpty");
+        choiceslist.add(1,"A. dequeue B. Front C. enqueue D. isEmpty");
+        choiceslist.add(1,"A. enqueue B. Rear C. dequeue D. Front");
     }
     
     public void playGame()
@@ -192,48 +196,48 @@ public class Billionaire extends GraphicsProgram implements BillionaireConstants
         switch(qcounter)
         {
             case 1: 
-                showQuestion(stackq.pop());
-                showChoices(stacka.pop());
+                showQuestion(questionlist.get(1));
+                showChoices(choiceslist.get(1));
                 break;
             case 2: 
                 Reset();
-                showQuestion(stackq.pop());
-                showChoices(stacka.pop());
+                showQuestion(questionlist.get(2));
+                showChoices(choiceslist.get(2));
                 break;
             case 3: 
                 Reset();
-                showQuestion(stackq.pop());
-                showChoices(stacka.pop());
+                showQuestion(questionlist.get(3));
+                showChoices(choiceslist.get(3));
                 break;
             case 4: 
                 Reset();
-                showQuestion(stackq.pop());
-                showChoices(stacka.pop());
+                showQuestion(questionlist.get(4));
+                showChoices(choiceslist.get(4));
                 break;
             case 5: 
                 Reset();
-                showQuestion(stackq.pop());
-                showChoices(stacka.pop());
+                showQuestion(questionlist.get(5));
+                showChoices(choiceslist.get(5));
                 break;
                 case 6: 
                 Reset();
-                showQuestion(stackq.pop());
-                showChoices(stacka.pop());
+                showQuestion(questionlist.get(6));
+                showChoices(choiceslist.get(6));
                 break;
                 case 7: 
                 Reset();
-                showQuestion(stackq.pop());
-                showChoices(stacka.pop());
+                showQuestion(questionlist.get(7));
+                showChoices(choiceslist.get(7));
                 break;
                 case 8: 
                 Reset();
-                showQuestion(stackq.pop());
-                showChoices(stacka.pop());
+                showQuestion(questionlist.get(8));
+                showChoices(choiceslist.get(8));
                 break;
                 case 9: 
                 Reset();
-                showQuestion(stackq.pop());
-                showChoices(stacka.pop());
+                showQuestion(questionlist.get(9));
+                showChoices(choiceslist.get(9));
                 break;
             case 10:
                 java.awt.Window dialog = SwingUtilities.windowForComponent(A);
@@ -267,8 +271,8 @@ public class Billionaire extends GraphicsProgram implements BillionaireConstants
             Reset();
             for(int i = 9; i > qcounter; i--)
             {
-                stacka.pop();
-                stackq.pop();
+                questionlist.remove(i);
+                choiceslist.remove(i);
             }
             initinit();
             qcounter = 1;
@@ -280,8 +284,8 @@ public class Billionaire extends GraphicsProgram implements BillionaireConstants
             Reset();
             for(int i = 9; i > qcounter; i--)
             {
-                stacka.pop();
-                stackq.pop();
+                questionlist.remove(i);
+                choiceslist.remove(i);
             }
             initinit();
             qcounter = 1;
@@ -293,8 +297,8 @@ public class Billionaire extends GraphicsProgram implements BillionaireConstants
             Reset();
             for(int i = 9; i > qcounter; i--)
             {
-                stacka.pop();
-                stackq.pop();
+                questionlist.remove(i);
+                choiceslist.remove(i);
             }
             initinit();
             qcounter = 1;
@@ -434,8 +438,7 @@ public class Billionaire extends GraphicsProgram implements BillionaireConstants
         removeAll();
         profile.setquiz(score);
         showQuestion("Your score is: " + score);
-        pause(800);
-        exit();
+        
     }
     
     public void setProfile(Profile p){
